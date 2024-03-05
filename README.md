@@ -1,16 +1,30 @@
-# file_manager
 
-A simple file manager for Linux
+# File Manager
 
-## Getting Started
+File Manager is a simple File Manager (obviously) for Linux.
+It's build with Flutter.
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+Install File Manager using Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/MelaineGerard/file_manager.git
+cd file_manager
+flutter pub get
+```
+    
+## Authors
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [@MelaineGerard](https://www.github.com/MelaineGerard)
+
+
+## Contributing
+
+Contributions are always welcome!
+Feel free to fork the project and create an issue/Pull Request to suggest some changes.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
