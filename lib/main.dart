@@ -28,26 +28,25 @@ class _Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: YaruMasterDetailPage(
-          appBar: const YaruWindowTitleBar(),
-          length: 1,
-          tileBuilder: (BuildContext context, int index, bool selected, double availableWidth) {
-            return YaruMasterTile(
-              title: Text('Personal Folder'),
-              leading: const Icon(YaruIcons.home),
-            );
-          },
-          pageBuilder: (BuildContext context, int index) {
-            int currentPage = index + 1;
-
-            return YaruDetailPage(
-              appBar: YaruWindowTitleBar(
-                title: Text('Personal Folder'),
-              ),
-              body: Center(
-                child: Text('TODO'),
-              ),
-            );
-          },
-        ));
+      appBar: const YaruWindowTitleBar(),
+      length: 1,
+      tileBuilder: (BuildContext context, int index, bool selected,
+          double availableWidth) {
+        return const YaruMasterTile(
+          title: Text('Personal Folder'),
+          leading: Icon(YaruIcons.home),
+        );
+      },
+      pageBuilder: (BuildContext context, int index) {
+        return const YaruDetailPage(
+          appBar: YaruWindowTitleBar(
+            title: Text('Personal Folder'),
+          ),
+          body: Center(
+            child: Text('TODO'),
+          ),
+        );
+      },
+    ));
   }
 }
